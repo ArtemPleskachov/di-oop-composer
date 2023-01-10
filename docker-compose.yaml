@@ -1,0 +1,45 @@
+version: "3"
+services:
+  php:
+    # імʼя контейнеру, яке будемо використовувати при вході на контейнер
+    container_name: php_di
+    build:
+      context: docker
+      # посилання на докерфайл з налаштуванням контейнеру
+      dockerfile: "configs/php/Dockerfile"
+    # встановлюємо змінні оточення
+    environment:
+      XDEBUG_CONFIG: "remote_host={{YOUR_IP_ADDRESS}}"
+      PHP_IDE_CONFIG: "serverName=docker"
+    # прописуємо синхронізацію директорій
+    volumes:
+      - ./:/srv/src/php-pro
+
+    links:
+      - db_mysql
+
+  db_mysql:
+    image: mysql:latest
+    container_name: php_di_mysql
+    ports:
+      - 13306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: firstdb
+      MYSQL_USER: artist
+      MYSQL_PASSWORD: qwerty
+    volumes:
+      - ./docker/databases/mysql_dump:/docker-entrypoint-initdb.d
+
+  nginx:
+    image: nginx:latest
+    container_name: php_di_nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./:/srv/src/php-pro
+      - ./docker/configs/nginx:/etc/nginx/conf.d
+      - ./logs/nginx:/var/log/nginx
+    links:
+      - php
