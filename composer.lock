@@ -769,12 +769,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/orm.git",
-                "reference": "91b662edb63f0eb35f235bd2d9d22f6e949f3e81"
+                "reference": "c226b951b318f06c95103dbfc9a6b92c3492e1cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/orm/zipball/91b662edb63f0eb35f235bd2d9d22f6e949f3e81",
-                "reference": "91b662edb63f0eb35f235bd2d9d22f6e949f3e81",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/c226b951b318f06c95103dbfc9a6b92c3492e1cc",
+                "reference": "c226b951b318f06c95103dbfc9a6b92c3492e1cc",
                 "shasum": ""
             },
             "require": {
@@ -850,7 +850,7 @@
                 "issues": "https://github.com/doctrine/orm/issues",
                 "source": "https://github.com/doctrine/orm/tree/3.0.x"
             },
-            "time": "2023-01-10T10:04:17+00:00"
+            "time": "2023-01-11T08:33:24+00:00"
         },
         {
             "name": "doctrine/persistence",
@@ -1540,12 +1540,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/database.git",
-                "reference": "aed1652042ffeaf28315f0cc25611635298c349b"
+                "reference": "00d20588028fcba27a3a2c80e39d2a269c12d387"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/database/zipball/aed1652042ffeaf28315f0cc25611635298c349b",
-                "reference": "aed1652042ffeaf28315f0cc25611635298c349b",
+                "url": "https://api.github.com/repos/illuminate/database/zipball/00d20588028fcba27a3a2c80e39d2a269c12d387",
+                "reference": "00d20588028fcba27a3a2c80e39d2a269c12d387",
                 "shasum": ""
             },
             "require": {
@@ -1600,7 +1600,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-01-09T17:36:56+00:00"
+            "time": "2023-01-11T14:53:18+00:00"
         },
         {
             "name": "illuminate/macroable",
@@ -1654,12 +1654,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/illuminate/support.git",
-                "reference": "96472803636dc813986410b805a1db382f9a9138"
+                "reference": "d51443da400dc673a000f54a06bb183281ceb086"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/illuminate/support/zipball/96472803636dc813986410b805a1db382f9a9138",
-                "reference": "96472803636dc813986410b805a1db382f9a9138",
+                "url": "https://api.github.com/repos/illuminate/support/zipball/d51443da400dc673a000f54a06bb183281ceb086",
+                "reference": "d51443da400dc673a000f54a06bb183281ceb086",
                 "shasum": ""
             },
             "require": {
@@ -1716,7 +1716,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-01-06T18:59:10+00:00"
+            "time": "2023-01-11T14:54:16+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -3458,12 +3458,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "43c48d8fa673c54d1ff07592da2d914985a02b59"
+                "reference": "6fccbe020793d71fbdb32ce9f81c2dbb9e7732de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/43c48d8fa673c54d1ff07592da2d914985a02b59",
-                "reference": "43c48d8fa673c54d1ff07592da2d914985a02b59",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/6fccbe020793d71fbdb32ce9f81c2dbb9e7732de",
+                "reference": "6fccbe020793d71fbdb32ce9f81c2dbb9e7732de",
                 "shasum": ""
             },
             "require": {
@@ -3508,7 +3508,7 @@
                 "serialize"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-exporter/tree/6.3"
+                "source": "https://github.com/symfony/var-exporter/tree/6.2"
             },
             "funding": [
                 {
@@ -3524,7 +3524,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2023-01-01T08:38:09+00:00"
+            "time": "2023-01-10T12:22:16+00:00"
         },
         {
             "name": "ufo-cms/colored_cli",
